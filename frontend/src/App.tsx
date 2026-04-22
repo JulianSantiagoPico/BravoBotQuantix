@@ -15,12 +15,8 @@ export default function App() {
   const [messages, setMessages] = useState<Message[]>([])
   const [isLoading, setIsLoading] = useState(false)
 
-  const handleSend = async (text: string) => {
-    const userMsg: Message = {
-      id: nextId(),
-      role: 'user',
-      content: text,
-    }
+  const sendMessage = async (text: string) => {
+    const userMsg: Message = { id: nextId(), role: 'user', content: text }
     setMessages((prev) => [...prev, userMsg])
     setIsLoading(true)
 
@@ -47,31 +43,39 @@ export default function App() {
     }
   }
 
-  return (
-    <div className="flex flex-col h-screen bg-pascual-gray">
-      {/* Header */}
-      <header className="bg-pascual-blue text-white px-4 py-3 shadow-md flex-shrink-0">
-        <div className="max-w-4xl mx-auto flex items-center gap-3">
-          <div className="w-9 h-9 rounded-full bg-pascual-orange flex items-center justify-center font-bold text-lg flex-shrink-0">
-            B
-          </div>
-          <div>
-            <h1 className="font-bold text-base leading-tight">BravoBot</h1>
-            <p className="text-xs text-blue-200 leading-tight">
-              Asistente Institucional — I.U. Pascual Bravo
-            </p>
-          </div>
-          <div className="ml-auto flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            <span className="text-xs text-blue-200">En línea</span>
-          </div>
-        </div>
-      </header>
+  const handleSuggestion = (text: string) => {
+    if (isLoading) return
+    sendMessage(text)
+  }
 
-      {/* Chat area */}
-      <main className="flex-1 overflow-hidden flex flex-col max-w-4xl w-full mx-auto">
-        <ChatWindow messages={messages} isLoading={isLoading} />
-        <InputBar onSend={handleSend} disabled={isLoading} />
+  return (
+    <div className="flex flex-col h-full bg-pb-gray-light">
+
+      {/* ══════════════════════════ CHAT AREA ══════════════════════════ */}
+      <main className="relative flex-1 overflow-hidden flex flex-col max-w-[1250px] w-full mx-auto">
+
+        {/* Floating "Nueva conversación" button */}
+        {messages.length > 0 && (
+          <button
+            id="clear-chat-btn"
+            onClick={() => setMessages([])}
+            className="absolute top-3 right-4 z-10 flex items-center gap-1.5 text-xs font-body text-pb-gray
+                       bg-white/90 backdrop-blur-sm border border-gray-200 rounded-lg px-3 py-1.5
+                       hover:text-pb-red hover:border-pb-red/30 transition-all duration-200 shadow-sm"
+          >
+            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+            </svg>
+            Nueva conversación
+          </button>
+        )}
+
+        <ChatWindow
+          messages={messages}
+          isLoading={isLoading}
+          onSuggestion={handleSuggestion}
+        />
+        <InputBar onSend={sendMessage} disabled={isLoading} />
       </main>
     </div>
   )
