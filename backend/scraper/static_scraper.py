@@ -40,7 +40,7 @@ NOISE_DIV_CLASSES = {
 }
 
 PDF_BLOCKLIST_RE = re.compile(
-    r"acuerdo[_-]directivo|reglamento[_-]propiedad|aprobacion[_-]men",
+    r"acuerdo[_-]directivo|reglamento[_-]propiedad|aprobacion[_-]men|/malla[_-]",
     re.IGNORECASE,
 )
 

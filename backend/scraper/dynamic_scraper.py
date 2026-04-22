@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 CALENDAR_PATTERN = re.compile(r"(\d{4})[^\d]*(1|2)", re.IGNORECASE)
 
 PDF_BLOCKLIST_RE = re.compile(
-    r"acuerdo[_-]directivo|reglamento[_-]propiedad|aprobacion[_-]men",
+    r"acuerdo[_-]directivo|reglamento[_-]propiedad|aprobacion[_-]men|/malla[_-]",
     re.IGNORECASE,
 )
 
