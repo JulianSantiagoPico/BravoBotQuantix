@@ -32,8 +32,8 @@ export default function ChatWindow({ messages, isLoading, onSuggestion }: ChatWi
 
           {/* Logo mark */}
           <div className="relative">
-            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-pb-aqua to-[#027ab5] flex items-center justify-center shadow-lg shadow-pb-aqua/30">
-              <span className="text-white text-3xl font-heading font-bold">BB</span>
+            <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center shadow-lg shadow-pb-aqua/30 overflow-hidden border-2 border-pb-aqua/20">
+              <img src="/Logo_1.png" alt="BravoBot" className="w-full h-full object-cover" />
             </div>
             {/* Online dot */}
             <span className="absolute bottom-1 right-1 w-4 h-4 bg-pb-green rounded-full border-2 border-white animate-pulse" />
@@ -79,8 +79,8 @@ export default function ChatWindow({ messages, isLoading, onSuggestion }: ChatWi
           {/* Typing indicator */}
           {isLoading && (
             <div className="flex gap-3 items-end animate-fade-in">
-              <div className="flex-shrink-0 w-9 h-9 rounded-full bg-gradient-to-br from-pb-aqua to-[#027ab5] flex items-center justify-center text-white text-xs font-heading font-bold shadow-md">
-                BB
+              <div className="flex-shrink-0 w-9 h-9 rounded-full bg-white flex items-center justify-center shadow-md overflow-hidden border border-pb-aqua/20">
+                <img src="/Logo_1.png" alt="BravoBot" className="w-full h-full object-cover" />
               </div>
               <div className="bg-white rounded-2xl rounded-bl-sm px-5 py-4 shadow-sm border border-gray-100 flex gap-1.5 items-center">
                 {[0, 160, 320].map((delay) => (

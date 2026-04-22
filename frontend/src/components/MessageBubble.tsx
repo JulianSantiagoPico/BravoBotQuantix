@@ -11,11 +11,11 @@ export interface Message {
 // ── Category badge colours ──────────────────────────────────────────────────
 const CATEGORIA_MAP: Record<string, { label: string; color: string }> = {
   admisiones: { label: 'Admisiones', color: '#0299D8' },
-  programas:  { label: 'Programas',  color: '#4E3D98' },
-  costos:     { label: 'Costos',     color: '#F29A01' },
-  bienestar:  { label: 'Bienestar',  color: '#00B87C' },
-  noticias:   { label: 'Noticias',   color: '#D8473A' },
-  general:    { label: 'General',    color: '#4E4E4E' },
+  programas: { label: 'Programas', color: '#4E3D98' },
+  costos: { label: 'Costos', color: '#F29A01' },
+  bienestar: { label: 'Bienestar', color: '#00B87C' },
+  noticias: { label: 'Noticias', color: '#D8473A' },
+  general: { label: 'General', color: '#4E4E4E' },
 }
 
 function CategoriaBadge({ categoria }: { categoria: string }) {
@@ -46,13 +46,12 @@ export default function MessageBubble({ message }: MessageBubbleProps) {
     >
       {/* Avatar */}
       <div
-        className={`flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center text-white text-xs font-heading font-bold shadow-md ${
-          isUser
-            ? 'bg-gradient-to-br from-pb-navy to-pb-navy-dark'
-            : 'bg-gradient-to-br from-pb-aqua to-[#027ab5]'
-        }`}
+        className={`flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center text-xs font-heading font-bold shadow-md overflow-hidden ${isUser
+            ? 'bg-gradient-to-br from-pb-navy to-pb-navy-dark text-white'
+            : 'bg-white border border-pb-aqua/20'
+          }`}
       >
-        {isUser ? 'Tú' : 'BB'}
+        {isUser ? 'Tú' : <img src="/Logo_1.png" alt="BravoBot" className="w-full h-full object-cover" />}
       </div>
 
       {/* Content column */}
@@ -65,11 +64,10 @@ export default function MessageBubble({ message }: MessageBubbleProps) {
 
         {/* Bubble */}
         <div
-          className={`px-4 py-3 rounded-2xl text-sm leading-relaxed ${
-            isUser
+          className={`px-4 py-3 rounded-2xl text-sm leading-relaxed ${isUser
               ? 'bg-gradient-to-br from-pb-navy to-pb-navy-dark text-white rounded-br-sm shadow-md'
               : 'bg-white text-pb-navy rounded-bl-sm shadow-sm border border-gray-100'
-          }`}
+            }`}
         >
           {isUser ? (
             <span className="whitespace-pre-wrap font-body">{message.content}</span>
