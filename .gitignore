@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Datos generados
+backend/data/raw_pages.json
+backend/data/pdfs/
+backend/chroma_db/
+
+# Secrets
+backend/.env
+.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
