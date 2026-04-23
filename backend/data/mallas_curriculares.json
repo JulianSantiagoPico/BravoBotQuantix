@@ -199,16 +199,20 @@
               "credits": 4
             },
             {
-              "name": "Introducción a la Logística Cadena de Suministros",
+              "name": "Introducción a la Logística y Cadena de Suministros",
               "credits": 4
+            },
+            {
+              "name": "Hoja de Calculo",
+              "credits": 2
             },
             {
               "name": "Lengua Materna",
               "credits": 2
             },
             {
-              "name": "Lógica de Programación",
-              "credits": 4
+              "name": "Trabajo en Equipo y Liderazgo",
+              "credits": 2
             },
             {
               "name": "Desarrollo Humano y Social",
@@ -216,7 +220,7 @@
             },
             {
               "name": "Inglés I",
-              "credits": 2
+              "credits": 1
             }
           ]
         },
@@ -236,16 +240,16 @@
               "credits": 2
             },
             {
-              "name": "Constitución y Participación Ciudadana",
+              "name": "Probabilidades",
               "credits": 2
             },
             {
-              "name": "Trabajo en Equipo y Liderazgo",
-              "credits": 2
+              "name": "Sistemas de Almacenamiento",
+              "credits": 4
             },
             {
               "name": "Inglés 2",
-              "credits": 2
+              "credits": 1
             }
           ]
         },
@@ -257,7 +261,7 @@
               "credits": 4
             },
             {
-              "name": "Hoja de Cálculo",
+              "name": "Lógica de programación",
               "credits": 2
             },
             {
@@ -265,12 +269,20 @@
               "credits": 4
             },
             {
-              "name": "Ingeniería Económica",
+              "name": "Constitución y Participación Ciudadana",
+              "credits": 2
+            },
+            {
+              "name": "Logística de la Producción",
               "credits": 4
             },
             {
-              "name": "Inglés 3",
+              "name": "Logística Verde y Responsabilidad Social",
               "credits": 2
+            },
+            {
+              "name": "Inglés 3",
+              "credits": 1
             }
           ]
         },
@@ -282,24 +294,24 @@
               "credits": 4
             },
             {
-              "name": "Probabilidades",
-              "credits": 2
+              "name": "Ingeniería Económica",
+              "credits": 4
             },
             {
-              "name": "Electiva",
-              "credits": 4
+              "name": "Electiva 1",
+              "credits": 2
             },
             {
               "name": "Física Mecánica",
               "credits": 4
             },
             {
-              "name": "Logística de la Producción",
+              "name": "Compras y Aprovisionamiento",
               "credits": 4
             },
             {
-              "name": "Inglés IV",
-              "credits": 2
+              "name": "Inglés 4",
+              "credits": 1
             }
           ]
         },
@@ -319,12 +331,16 @@
               "credits": 4
             },
             {
-              "name": "Compras y Aprovisionamiento",
-              "credits": 4
+              "name": "Herramientas de Productividad y Calidad",
+              "credits": 2
             },
             {
-              "name": "Inglés V",
+              "name": "Electiva 2",
               "credits": 2
+            },
+            {
+              "name": "Inglés 5",
+              "credits": 1
             }
           ]
         },
@@ -336,20 +352,28 @@
               "credits": 4
             },
             {
+              "name": "Formulación y Evaluación de Proyectos",
+              "credits": 4
+            },
+            {
               "name": "Gestión Comercial y Logística del Servicio",
               "credits": 2
             },
             {
-              "name": "Metodología de la Investigación",
-              "credits": 4
-            },
-            {
-              "name": "Sistemas de Almacenamiento",
-              "credits": 4
-            },
-            {
-              "name": "Inglés VI",
+              "name": "Aspectos Legales y Regulaciones en Logística",
               "credits": 2
+            },
+            {
+              "name": "Tendencias Logísticas en la Industria 4.0",
+              "credits": 2
+            },
+            {
+              "name": "Lengguaje de programación",
+              "credits": 2
+            },
+            {
+              "name": "Inglés 6",
+              "credits": 1
             }
           ]
         },
@@ -361,20 +385,28 @@
               "credits": 4
             },
             {
-              "name": "Formulación y Evaluación de Proyectos",
+              "name": "Simulación de Eventos Discretos",
               "credits": 4
             },
             {
-              "name": "Aspectos Legales y Regulación en Logística",
+              "name": "Electiva 3",
               "credits": 2
             },
             {
-              "name": "Herramientas de Productividad y Calidad",
+              "name": "Análisis Financiero",
               "credits": 4
             },
             {
-              "name": "Inglés V2",
+              "name": "Sistemas de Información Logísticos",
               "credits": 2
+            },
+            {
+              "name": "Diseño de centros de distribución",
+              "credits": 2
+            },
+            {
+              "name": "Inglés 7",
+              "credits": 1
             }
           ]
         },
@@ -382,24 +414,32 @@
           "semester": 8,
           "courses": [
             {
-              "name": "Proyecto de Grado",
-              "credits": 4
+              "name": "Metodología de la Investigación",
+              "credits": 2
             },
             {
               "name": "Gestión de Recursos Humanos",
               "credits": 4
             },
             {
-              "name": "Análisis Financiero",
-              "credits": 2
-            },
-            {
-              "name": "Tendencias Logísticas",
+              "name": "Planeación Estratégica Logística",
               "credits": 4
             },
             {
-              "name": "Inglés V3",
+              "name": "Seminario de Aplicación de Innovación Logística Empresarial",
               "credits": 2
+            },
+            {
+              "name": "Profundización 1",
+              "credits": 2
+            },
+            {
+              "name": "Simulación de procesos logísticos",
+              "credits": 4
+            },
+            {
+              "name": "Inglés 8",
+              "credits": 1
             }
           ]
         },
@@ -407,24 +447,16 @@
           "semester": 9,
           "courses": [
             {
-              "name": "Simulación de Eventos Discretos",
+              "name": "Proyecto de Grado",
               "credits": 4
             },
             {
-              "name": "Profundización I B",
-              "credits": 4
-            },
-            {
-              "name": "Planeación Estratégica Logística",
+              "name": "Profundización 2",
               "credits": 2
-            },
-            {
-              "name": "Seminario de Aplicación de Innovación Logística Empresarial",
-              "credits": 4
             },
             {
               "name": "Distribución Física Internacional",
-              "credits": 2
+              "credits": 4
             }
           ]
         }
@@ -444,20 +476,24 @@
               "credits": 4
             },
             {
+              "name": "Ciencia de materiales",
+              "credits": 4
+            },
+            {
               "name": "Química General",
               "credits": 4
             },
             {
-              "name": "Ciencia de Materiales",
-              "credits": 4
+              "name": "Introducción a la ciencia y a la tecnología",
+              "credits": 2
             },
             {
               "name": "Lengua Materna",
               "credits": 2
             },
             {
-              "name": "Inglés I",
-              "credits": 2
+              "name": "Inglés 1",
+              "credits": 1
             }
           ]
         },
@@ -465,11 +501,11 @@
           "semester": 2,
           "courses": [
             {
-              "name": "Geometría Vectorial y Analítica",
+              "name": "Cálculo Diferencial",
               "credits": 4
             },
             {
-              "name": "Cálculo Diferencial",
+              "name": "Geometría Vectorial y Analítica",
               "credits": 4
             },
             {
@@ -477,11 +513,15 @@
               "credits": 4
             },
             {
-              "name": "Constitución y Participación Ciudadana",
+              "name": "Intro a la nanociencia y nanotecnología de los materiales",
               "credits": 2
             },
             {
               "name": "Inglés 2",
+              "credits": 1
+            },
+            {
+              "name": "Constitución y Participación Ciudadana",
               "credits": 2
             }
           ]
@@ -489,10 +529,6 @@
         {
           "semester": 3,
           "courses": [
-            {
-              "name": "Álgebra Lineal",
-              "credits": 4
-            },
             {
               "name": "Cálculo Integral",
               "credits": 4
@@ -502,8 +538,16 @@
               "credits": 4
             },
             {
+              "name": "Algebra Lineal",
+              "credits": 4
+            },
+            {
               "name": "Inglés 3",
-              "credits": 2
+              "credits": 1
+            },
+            {
+              "name": "Materiales Nanometalicos",
+              "credits": 4
             }
           ]
         },
@@ -523,8 +567,12 @@
               "credits": 4
             },
             {
-              "name": "Inglés IV",
-              "credits": 2
+              "name": "Inglés 4",
+              "credits": 1
+            },
+            {
+              "name": "Materiales Nanocerámicos",
+              "credits": 4
             }
           ]
         },
@@ -537,15 +585,19 @@
             },
             {
               "name": "Estadística y Probabilidad",
-              "credits": 4
+              "credits": 3
             },
             {
               "name": "Química Analítica e Instrumental",
               "credits": 4
             },
             {
-              "name": "Inglés V",
-              "credits": 2
+              "name": "Materiales Nanopoliméricos",
+              "credits": 4
+            },
+            {
+              "name": "Inglés 5",
+              "credits": 1
             }
           ]
         },
@@ -554,23 +606,27 @@
           "courses": [
             {
               "name": "Métodos Numéricos",
-              "credits": 3
-            },
-            {
-              "name": "Termodinámica de Materiales",
               "credits": 4
             },
             {
-              "name": "Optativa",
-              "credits": 3
+              "name": "Termodinámica de los Materiales",
+              "credits": 4
             },
             {
-              "name": "Electiva I",
+              "name": "Optativa 1",
+              "credits": 4
+            },
+            {
+              "name": "Materiales Nanocompuestos",
+              "credits": 4
+            },
+            {
+              "name": "Electiva 1",
               "credits": 2
             },
             {
-              "name": "Inglés VI",
-              "credits": 2
+              "name": "Inglés 6",
+              "credits": 1
             }
           ]
         },
@@ -582,20 +638,24 @@
               "credits": 4
             },
             {
-              "name": "Caracterización de Materiales I",
+              "name": "Caracterización de Materiales II",
               "credits": 4
             },
             {
-              "name": "Tratamiento de Materias Primas",
+              "name": "Economía Circular",
               "credits": 3
             },
             {
-              "name": "Diseño de Experimentos",
+              "name": "Optativa 2",
               "credits": 4
             },
             {
-              "name": "Inglés V2",
-              "credits": 2
+              "name": "Diseño de Experimentos",
+              "credits": 3
+            },
+            {
+              "name": "Inglés 7",
+              "credits": 1
             }
           ]
         },
@@ -603,24 +663,28 @@
           "semester": 8,
           "courses": [
             {
-              "name": "Optativa",
+              "name": "Optativa 3",
               "credits": 4
             },
             {
               "name": "Caracterización de Materiales 2",
-              "credits": 4
-            },
-            {
-              "name": "Reciclaje de Materiales",
               "credits": 3
             },
             {
-              "name": "Metodología de la Investigación",
+              "name": "TRatamiento de materias primas",
+              "credits": 3
+            },
+            {
+              "name": "Electiva 2",
               "credits": 2
             },
             {
-              "name": "Inglés V3",
+              "name": "Metodologías de la Investigación",
               "credits": 2
+            },
+            {
+              "name": "Inglés 8",
+              "credits": 1
             }
           ]
         },
@@ -628,27 +692,27 @@
           "semester": 9,
           "courses": [
             {
-              "name": "Optativa 2",
+              "name": "Optativa 4",
               "credits": 4
             },
             {
-              "name": "Materiales Nanometálicos",
+              "name": "Reciclaje de materiales",
+              "credits": 3
+            },
+            {
+              "name": "Seminario de Investigación",
               "credits": 2
             },
             {
-              "name": "Materiales Nanocerámicos",
+              "name": "Metodología de la Investigación",
               "credits": 2
             },
             {
-              "name": "Materiales Nanopoliméricos",
-              "credits": 4
+              "name": "Gestión ambiental",
+              "credits": 3
             },
             {
-              "name": "Materiales Nanocompuestos",
-              "credits": 4
-            },
-            {
-              "name": "Gestión Ambiental",
+              "name": "Desarrollo humano y ética",
               "credits": 2
             }
           ]
@@ -657,12 +721,8 @@
           "semester": 10,
           "courses": [
             {
-              "name": "Trabajo de Grado Semestre de Industria",
+              "name": "Trabajo de Grado / Semestre de Práctica",
               "credits": 14
-            },
-            {
-              "name": "Desarrollo Humano y Ética",
-              "credits": 2
             }
           ]
         }
@@ -975,16 +1035,20 @@
               "credits": 3
             },
             {
+              "name": "Razonamiento Matemático y Analítico",
+              "credits": 3
+            },
+            {
               "name": "Técnicas de Fabricación Digital I",
-              "credits": 6
+              "credits": 3
             },
             {
               "name": "Introducción a la Fabricación Digital Sostenible",
               "credits": 2
             },
             {
-              "name": "Inglés I",
-              "credits": 2
+              "name": "Inglés 1",
+              "credits": 1
             }
           ]
         },
@@ -1001,15 +1065,15 @@
             },
             {
               "name": "Técnicas de Fabricación Digital 2",
-              "credits": 6
+              "credits": 3
             },
             {
-              "name": "Razonamiento Matemático y Analítico",
+              "name": "Circulos eléctricos",
               "credits": 4
             },
             {
               "name": "Inglés 2",
-              "credits": 2
+              "credits": 1
             }
           ]
         },
@@ -1026,10 +1090,10 @@
             },
             {
               "name": "Técnica de Fabricación Digital 3",
-              "credits": 6
+              "credits": 3
             },
             {
-              "name": "Circuitos Eléctricos",
+              "name": "Circuitos Eléctricos y digitales",
               "credits": 4
             },
             {
@@ -1047,14 +1111,10 @@
             },
             {
               "name": "Trabajo de Grado",
-              "credits": 3
+              "credits": 4
             },
             {
               "name": "Técnica de Fabricación Digital IV",
-              "credits": 8
-            },
-            {
-              "name": "Circuitos Electrónicos y Digitales",
               "credits": 4
             },
             {
@@ -1452,19 +1512,23 @@
               "credits": 4
             },
             {
-              "name": "Geometría Vectorial y Analítica",
-              "credits": 4
+              "name": "Herramientas Ofimáticas",
+              "credits": 2
             },
             {
               "name": "Introducción a la Ingeniería",
-              "credits": 2
+              "credits": 4
             },
             {
               "name": "Lengua Materna",
               "credits": 2
             },
             {
-              "name": "Inglés I",
+              "name": "Herramientas CAD/CAE I",
+              "credits": 2
+            },
+            {
+              "name": "Desarrollo Humano y Social",
               "credits": 2
             }
           ]
@@ -1477,11 +1541,11 @@
               "credits": 4
             },
             {
-              "name": "Álgebra Lineal",
+              "name": "Física Mecánica",
               "credits": 4
             },
             {
-              "name": "Química General",
+              "name": "Análisis de Circuitos I",
               "credits": 4
             },
             {
@@ -1489,7 +1553,7 @@
               "credits": 2
             },
             {
-              "name": "Inglés 2",
+              "name": "Herramientas CAD/CAE II",
               "credits": 2
             }
           ]
@@ -1502,19 +1566,19 @@
               "credits": 4
             },
             {
-              "name": "Física Mecánica",
+              "name": "Física de Campos",
               "credits": 4
             },
             {
-              "name": "Expresión Gráfica",
+              "name": "Análisis de Circuitos II",
+              "credits": 4
+            },
+            {
+              "name": "Sector Energético",
               "credits": 2
             },
             {
-              "name": "Algoritmos y Programación",
-              "credits": 4
-            },
-            {
-              "name": "Inglés 3",
+              "name": "Gestión Ambiental",
               "credits": 2
             }
           ]
@@ -1527,20 +1591,20 @@
               "credits": 4
             },
             {
-              "name": "Física Electricidad y Magnetismo",
-              "credits": 4
-            },
-            {
-              "name": "Circuitos Eléctricos I",
-              "credits": 4
-            },
-            {
-              "name": "Herramientas CAD/CAE",
+              "name": "Electromagnetismo",
               "credits": 2
             },
             {
-              "name": "Inglés IV",
-              "credits": 2
+              "name": "Análisis de Circuitos III",
+              "credits": 4
+            },
+            {
+              "name": "Transporte de Energía",
+              "credits": 4
+            },
+            {
+              "name": "Instalaciones e Iluminación",
+              "credits": 4
             }
           ]
         },
@@ -1552,19 +1616,19 @@
               "credits": 4
             },
             {
-              "name": "Física Ondas y Moderna",
+              "name": "Máquinas I",
               "credits": 4
             },
             {
-              "name": "Circuitos Eléctricos 2",
+              "name": "Generación de Energía",
               "credits": 4
             },
             {
-              "name": "Materiales de Ingeniería",
-              "credits": 3
+              "name": "Gestión Empresa  ",
+              "credits": 2
             },
             {
-              "name": "Inglés V",
+              "name": "Control 1",
               "credits": 2
             }
           ]
@@ -1577,19 +1641,19 @@
               "credits": 4
             },
             {
-              "name": "Electromagnetismo",
+              "name": "Máquinas 2",
               "credits": 4
             },
             {
-              "name": "Electrónica Básica",
-              "credits": 4
-            },
-            {
-              "name": "Medidas Eléctricas",
+              "name": "Análisis de sistemas de potencia 1",
               "credits": 2
             },
             {
-              "name": "Inglés VI",
+              "name": "Calidad de la Energía",
+              "credits": 4
+            },
+            {
+              "name": "Control 2",
               "credits": 2
             }
           ]
@@ -1602,19 +1666,19 @@
               "credits": 4
             },
             {
-              "name": "Máquinas Eléctricas I",
-              "credits": 4
-            },
-            {
-              "name": "Electrónica de Potencia",
-              "credits": 4
-            },
-            {
-              "name": "Sector Energético",
+              "name": "Ingenieria económica",
               "credits": 2
             },
             {
-              "name": "Inglés V2",
+              "name": "Análisis de sistemas de potencia 2",
+              "credits": 4
+            },
+            {
+              "name": "Protecciones y medidas",
+              "credits": 4
+            },
+            {
+              "name": "Gestión de Calidad",
               "credits": 2
             }
           ]
@@ -1627,19 +1691,19 @@
               "credits": 4
             },
             {
-              "name": "Máquinas Eléctricas 2",
+              "name": "Instrumentación Industrial",
               "credits": 4
             },
             {
-              "name": "Sistemas Automáticos de Control",
+              "name": "Uso racional de la energía",
               "credits": 4
             },
             {
-              "name": "Transporte de Energía",
-              "credits": 2
+              "name": "Redes eléctricas",
+              "credits": 4
             },
             {
-              "name": "Inglés V3",
+              "name": "Fundamentos de administración",
               "credits": 2
             }
           ]
@@ -1648,23 +1712,23 @@
           "semester": 9,
           "courses": [
             {
-              "name": "Instalaciones e Iluminación",
+              "name": "Sistemas de Automatización y Control",
               "credits": 4
             },
             {
-              "name": "Protecciones y Relevación",
+              "name": "Electiva 1",
+              "credits": 2
+            },
+            {
+              "name": "Profundización 1",
+              "credits": 2
+            },
+            {
+              "name": "Redes eléctricas 2",
               "credits": 4
             },
             {
-              "name": "Calidad de la Energía",
-              "credits": 2
-            },
-            {
-              "name": "Gestión Empresarial",
-              "credits": 2
-            },
-            {
-              "name": "Desarrollo Humano y Social",
+              "name": "Metodología de la Investigación",
               "credits": 2
             }
           ]
@@ -1673,27 +1737,27 @@
           "semester": 10,
           "courses": [
             {
-              "name": "Control de Máquinas Eléctricas",
+              "name": "Gerencia del Mantenimiento",
               "credits": 4
             },
             {
-              "name": "Gestión de la Calidad",
+              "name": "Electiva 2",
               "credits": 2
             },
             {
-              "name": "Gestión Ambiental",
+              "name": "Profundización 2",
               "credits": 2
             },
             {
-              "name": "Fundamentos de Administración",
-              "credits": 2
+              "name": "Evaluación de Proyectos",
+              "credits": 4
             },
             {
-              "name": "Metodología de la Investigación",
-              "credits": 2
+              "name": "Trabajo de grado",
+              "credits": 0
             },
             {
-              "name": "Trabajo de Grado",
+              "name": "Gestión Tecnológica",
               "credits": 4
             }
           ]
@@ -1705,25 +1769,34 @@
     {
       "name": "TECNOLOGÍA EN MECÁNICA INDUSTRIAL",
       "duration": "6 semestres",
+      "snies": "102470",
+      "modalidad": "presencial",
+      "resolucion": "16950 del 27 de diciembre de 2019",
+      "vigencia": "7 años",
       "semesters": [
         {
           "semester": 1,
+          "semester_credits": 14,
           "courses": [
             {
-              "name": "Ciencia, Tecnología y Desarrollo",
+              "name": "Ciencia, tecnología y desarrollo",
               "credits": 2
             },
             {
-              "name": "Matemáticas Operativas",
-              "credits": 4
-            },
-            {
-              "name": "Introducción a la Mecánica Industrial",
+              "name": "Lenguaje y cultura",
               "credits": 2
             },
             {
-              "name": "Dibujo Técnico",
-              "credits": 4
+              "name": "Pensamiento creativo",
+              "credits": 2
+            },
+            {
+              "name": "Razonamiento matemático y analítico",
+              "credits": 3
+            },
+            {
+              "name": "Dibujo técnico",
+              "credits": 3
             },
             {
               "name": "Inglés I",
@@ -1733,71 +1806,82 @@
         },
         {
           "semester": 2,
+          "semester_credits": 18,
           "courses": [
             {
-              "name": "Lenguaje y Cultura",
+              "name": "Geometría vectorial y analítica",
+              "credits": 3
+            },
+            {
+              "name": "Cálculo diferencial",
+              "credits": 3
+            },
+            {
+              "name": "Dibujo mecánico",
+              "credits": 4
+            },
+            {
+              "name": "Ciencia de los materiales",
+              "credits": 4
+            },
+            {
+              "name": "TIC / Competencias digitales",
               "credits": 2
             },
             {
-              "name": "Cálculo Diferencial",
-              "credits": 4
-            },
-            {
-              "name": "Geometría Vectorial y Analítica",
-              "credits": 4
-            },
-            {
-              "name": "Procesos de Remoción de Materiales I",
-              "credits": 4
-            },
-            {
-              "name": "Inglés 2",
+              "name": "Inglés II",
               "credits": 2
             }
           ]
         },
         {
           "semester": 3,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Física Mecánica",
+              "name": "Física mecánica",
               "credits": 4
             },
             {
-              "name": "Cálculo Integral",
+              "name": "Circuitos eléctricos",
               "credits": 4
             },
             {
-              "name": "Procesos de Remoción de Materiales 2",
+              "name": "Procesos de moldeo y conformado volumétrico",
               "credits": 4
             },
             {
-              "name": "TIC/Competencias Digitales",
+              "name": "Teoría de la agencia",
               "credits": 2
             },
             {
-              "name": "Inglés 3",
+              "name": "Inglés III",
               "credits": 2
             }
           ]
         },
         {
           "semester": 4,
+          "semester_credits": 15,
           "courses": [
             {
-              "name": "Estática y Resistencia de Materiales",
-              "credits": 4
-            },
-            {
-              "name": "Circuitos Eléctricos",
-              "credits": 4
-            },
-            {
-              "name": "Lubricación Industrial",
+              "name": "Lubricación industrial",
               "credits": 2
             },
             {
-              "name": "Teoría de la Agencia",
+              "name": "Procesos de remoción de materiales",
+              "credits": 4
+            },
+            {
+              "name": "Estática",
+              "credits": 3
+            },
+            {
+              "name": "Constitución, ciudadanía y paz",
+              "credits": 2
+            },
+            {
+              "name": "Electiva I",
               "credits": 2
             },
             {
@@ -1808,22 +1892,23 @@
         },
         {
           "semester": 5,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Elementos de Máquinas",
+              "name": "Gestión del mantenimiento",
+              "credits": 3
+            },
+            {
+              "name": "Lógica de programación",
               "credits": 4
             },
             {
-              "name": "Lógica de Programación",
+              "name": "Procesos de unión y manufactura aditiva",
               "credits": 4
             },
             {
-              "name": "Gestión del Mantenimiento",
-              "credits": 4
-            },
-            {
-              "name": "Electiva I",
-              "credits": 2
+              "name": "Profundización I",
+              "credits": 3
             },
             {
               "name": "Inglés V",
@@ -1833,21 +1918,26 @@
         },
         {
           "semester": 6,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Automatización I",
+              "name": "Trabajo de grado",
               "credits": 4
             },
             {
-              "name": "Mantenimiento Industrial",
+              "name": "Profundización II",
+              "credits": 3
+            },
+            {
+              "name": "Sistemas de automatización y control",
               "credits": 4
             },
             {
-              "name": "Sistemas Neumáticos e Hidráulicos",
-              "credits": 4
+              "name": "Técnicas de mantenimiento industrial",
+              "credits": 2
             },
             {
-              "name": "Trabajo de Grado",
+              "name": "Sistemas neumáticos e hidráulicos",
               "credits": 2
             },
             {
@@ -2363,22 +2453,27 @@
       "semesters": [
         {
           "semester": 1,
+          "semester_credits": 14,
           "courses": [
             {
-              "name": "Ciencia, Tecnología y Desarrollo",
+              "name": "Ciencia, tecnología y desarrollo",
               "credits": 2
             },
             {
-              "name": "Matemáticas Operativas",
-              "credits": 4
-            },
-            {
-              "name": "Introducción a la Mecánica Automotriz",
+              "name": "Lenguaje y cultura",
               "credits": 2
             },
             {
-              "name": "Dibujo Técnico",
+              "name": "Pensamiento creativo",
               "credits": 2
+            },
+            {
+              "name": "Razonamiento matemático y analítico",
+              "credits": 3
+            },
+            {
+              "name": "Dibujo técnico",
+              "credits": 3
             },
             {
               "name": "Inglés I",
@@ -2388,71 +2483,82 @@
         },
         {
           "semester": 2,
+          "semester_credits": 15,
           "courses": [
             {
-              "name": "Lenguaje y Cultura",
+              "name": "Cálculo diferencial",
+              "credits": 3
+            },
+            {
+              "name": "Circuitos eléctricos",
+              "credits": 4
+            },
+            {
+              "name": "Sistemas automotrices",
               "credits": 2
             },
             {
-              "name": "Cálculo Diferencial",
-              "credits": 4
+              "name": "Normatividad y certificación vehicular",
+              "credits": 2
             },
             {
-              "name": "Geometría Vectorial y Analítica",
-              "credits": 4
+              "name": "TIC / Competencias digitales",
+              "credits": 2
             },
             {
-              "name": "Circuitos Eléctricos",
-              "credits": 4
-            },
-            {
-              "name": "Inglés 2",
+              "name": "Inglés II",
               "credits": 2
             }
           ]
         },
         {
           "semester": 3,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Física Mecánica",
+              "name": "Física mecánica",
               "credits": 4
             },
             {
-              "name": "Cálculo Integral",
+              "name": "Mecánica de fluidos",
               "credits": 4
             },
             {
-              "name": "Autotrónica",
+              "name": "Transmisión de potencia y seguridad activa",
               "credits": 4
             },
             {
-              "name": "TIC/Competencias Digitales",
+              "name": "Electiva",
               "credits": 2
             },
             {
-              "name": "Inglés 3",
+              "name": "Inglés III",
               "credits": 2
             }
           ]
         },
         {
           "semester": 4,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Termodinámica",
+              "name": "Lógica de programación",
               "credits": 4
             },
             {
-              "name": "Lógica de Programación",
+              "name": "Torneodinámica",
               "credits": 4
             },
             {
-              "name": "Motores de Combustión Interna",
-              "credits": 4
+              "name": "Mantenimiento y lubricación automotriz",
+              "credits": 2
             },
             {
-              "name": "Electiva",
+              "name": "Profundización I",
+              "credits": 3
+            },
+            {
+              "name": "Constitución, ciudadanía y paz",
               "credits": 2
             },
             {
@@ -2463,21 +2569,22 @@
         },
         {
           "semester": 5,
+          "semester_credits": 15,
           "courses": [
             {
-              "name": "Diagnóstico Automotriz",
+              "name": "Autotrónica",
               "credits": 4
             },
             {
-              "name": "Sistemas de Transmisión y Frenos",
+              "name": "Fundamentos de motores de combustión interna",
               "credits": 4
             },
             {
-              "name": "Teoría de la Agencia",
-              "credits": 2
+              "name": "Profundización II",
+              "credits": 3
             },
             {
-              "name": "Constitución, Ciudadanía y Paz",
+              "name": "Teoría de la agencia",
               "credits": 2
             },
             {
@@ -2488,18 +2595,23 @@
         },
         {
           "semester": 6,
+          "semester_credits": 18,
           "courses": [
             {
-              "name": "Sistemas de Suspensión y Dirección",
+              "name": "Diagnóstico automotriz",
               "credits": 4
             },
             {
-              "name": "Gestión del Mantenimiento Automotriz",
+              "name": "Mecánica de motores de combustión interna",
               "credits": 4
             },
             {
-              "name": "Trabajo de Grado",
-              "credits": 2
+              "name": "Vehículos híbridos y eléctricos",
+              "credits": 4
+            },
+            {
+              "name": "Trabajo de grado",
+              "credits": 4
             },
             {
               "name": "Inglés VI",
@@ -2514,6 +2626,7 @@
     {
       "name": "TECNOLOGÍA EN DESARROLLO DE SOFTWARE",
       "duration": "6 semestres",
+      "modalidad": "presencial",
       "total_credits": 96,
       "semesters": [
         {
@@ -2687,6 +2800,183 @@
       ],
       "level": "pregrado",
       "url_pdf": "https://pascualbravo.edu.co/wp-content/uploads/2025/06/Malla-Presencial-Tecnologia-en-Desarrollo-de-Software.pdf"
+    },
+    {
+      "name": "TECNOLOGÍA EN DESARROLLO DE SOFTWARE",
+      "duration": "6 semestres",
+      "modalidad": "virtual",
+      "semesters": [
+        {
+          "semester": 1,
+          "semester_credits": 15,
+          "courses": [
+            {
+              "name": "Ciencia, tecnología y desarrollo",
+              "credits": 2
+            },
+            {
+              "name": "Lenguaje y cultura",
+              "credits": 2
+            },
+            {
+              "name": "Pensamiento creativo",
+              "credits": 2
+            },
+            {
+              "name": "Razonamiento matemático y analítico",
+              "credits": 3
+            },
+            {
+              "name": "Desarrollo del pensamiento computacional",
+              "credits": 4
+            },
+            {
+              "name": "Inglés I",
+              "credits": 2
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "semester_credits": 16,
+          "courses": [
+            {
+              "name": "Matemáticas discretas",
+              "credits": 3
+            },
+            {
+              "name": "Lógica de programación",
+              "credits": 4
+            },
+            {
+              "name": "Teoría de la agencia",
+              "credits": 2
+            },
+            {
+              "name": "TIC / Competencias digitales",
+              "credits": 2
+            },
+            {
+              "name": "Álgebra lineal",
+              "credits": 3
+            },
+            {
+              "name": "Inglés II",
+              "credits": 2
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "semester_credits": 19,
+          "courses": [
+            {
+              "name": "Cálculo diferencial",
+              "credits": 3
+            },
+            {
+              "name": "Estructura de datos",
+              "credits": 4
+            },
+            {
+              "name": "Base de datos I",
+              "credits": 4
+            },
+            {
+              "name": "Sistemas operativos",
+              "credits": 4
+            },
+            {
+              "name": "Electiva I",
+              "credits": 2
+            },
+            {
+              "name": "Inglés III",
+              "credits": 2
+            }
+          ]
+        },
+        {
+          "semester": 4,
+          "semester_credits": 16,
+          "courses": [
+            {
+              "name": "Estadística descriptiva",
+              "credits": 3
+            },
+            {
+              "name": "Programación orientada a objetos",
+              "credits": 4
+            },
+            {
+              "name": "Base de datos II",
+              "credits": 4
+            },
+            {
+              "name": "Ingeniería de software",
+              "credits": 3
+            },
+            {
+              "name": "Inglés IV",
+              "credits": 2
+            }
+          ]
+        },
+        {
+          "semester": 5,
+          "semester_credits": 13,
+          "courses": [
+            {
+              "name": "Constitución, ciudadanía y paz",
+              "credits": 2
+            },
+            {
+              "name": "Programación web",
+              "credits": 4
+            },
+            {
+              "name": "Introducción a la analítica de datos",
+              "credits": 4
+            },
+            {
+              "name": "Línea de profundización I",
+              "credits": 3
+            },
+            {
+              "name": "Inglés V",
+              "credits": 2
+            }
+          ]
+        },
+        {
+          "semester": 6,
+          "semester_credits": 15,
+          "courses": [
+            {
+              "name": "Seguridad informática",
+              "credits": 4
+            },
+            {
+              "name": "Trabajo de grado",
+              "credits": 4
+            },
+            {
+              "name": "Testing",
+              "credits": 2
+            },
+            {
+              "name": "Línea de profundización II",
+              "credits": 3
+            },
+            {
+              "name": "Inglés VI",
+              "credits": 2
+            }
+          ]
+        }
+      ],
+      "level": "pregrado",
+      "url_pdf": "https://pascualbravo.edu.co/wp-content/uploads/2025/06/Malla-Virtual-Tecnologia-en-Desarrollo-de-Software.pdf"
     },
     {
       "name": "TECNOLOGÍA EN GESTIÓN LOGÍSTICA",
@@ -3560,26 +3850,31 @@
     },
     {
       "name": "PROFESIONAL EN GESTIÓN DEL DISEÑO",
-      "duration": "8 semestres",
+      "duration": "10 semestres",
       "semesters": [
         {
           "semester": 1,
+          "semester_credits": 14,
           "courses": [
             {
-              "name": "Ciencia, Tecnología y Desarrollo",
+              "name": "Ciencia, tecnología y desarrollo",
               "credits": 2
             },
             {
-              "name": "Lenguaje y Cultura",
+              "name": "Lenguaje y cultura",
               "credits": 2
             },
             {
-              "name": "Introducción a la Gestión del Diseño",
-              "credits": 4
+              "name": "Pensamiento creativo",
+              "credits": 2
             },
             {
-              "name": "Pensamiento Creativo",
-              "credits": 2
+              "name": "Razonamiento matemático y analítico",
+              "credits": 3
+            },
+            {
+              "name": "Fundamentos del diseño",
+              "credits": 3
             },
             {
               "name": "Inglés 1",
@@ -3589,46 +3884,56 @@
         },
         {
           "semester": 2,
+          "semester_credits": 15,
           "courses": [
             {
-              "name": "Epistemología del Diseño",
-              "credits": 2
-            },
-            {
-              "name": "GeDi + Comunicación",
+              "name": "Introducción a la gestión del diseño",
               "credits": 4
             },
             {
-              "name": "Teoría de la Agencia",
+              "name": "Epistemología del diseño",
               "credits": 2
+            },
+            {
+              "name": "Teoría de la agencia",
+              "credits": 2
+            },
+            {
+              "name": "TIC / Competencias digitales",
+              "credits": 2
+            },
+            {
+              "name": "Diseño de la gestión 1",
+              "credits": 3
             },
             {
               "name": "Inglés 2",
               "credits": 2
-            },
-            {
-              "name": "Electiva 1",
-              "credits": 3
             }
           ]
         },
         {
           "semester": 3,
+          "semester_credits": 18,
           "courses": [
             {
-              "name": "Principios de Investigación en Diseño",
-              "credits": 2
-            },
-            {
-              "name": "GeDi + Creativo",
+              "name": "GeDi + Comunicación",
               "credits": 4
             },
             {
-              "name": "Mercadeo",
-              "credits": 3
+              "name": "Principios de investigación en diseño",
+              "credits": 2
             },
             {
-              "name": "Diseño de la Gestión 1",
+              "name": "Mercadeo",
+              "credits": 2
+            },
+            {
+              "name": "Estadística descriptiva",
+              "credits": 5
+            },
+            {
+              "name": "Historia de las sociedades",
               "credits": 3
             },
             {
@@ -3639,22 +3944,27 @@
         },
         {
           "semester": 4,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Contabilidad, Costos y Presupuestos",
+              "name": "GeDi + Creativo",
               "credits": 4
             },
             {
-              "name": "GeDi Sostenible",
-              "credits": 8
+              "name": "Contabilidad, costos y presupuestos",
+              "credits": 4
             },
             {
-              "name": "Economía Circular y Sostenibilidad Integral",
-              "credits": 3
+              "name": "Economía circular y sostenibilidad integral",
+              "credits": 2
             },
             {
-              "name": "Diseño de la Gestión 2",
-              "credits": 3
+              "name": "Percepción y cognición",
+              "credits": 2
+            },
+            {
+              "name": "Constitución, ciudadanía y paz",
+              "credits": 2
             },
             {
               "name": "Inglés 4",
@@ -3664,21 +3974,26 @@
         },
         {
           "semester": 5,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Análisis Financiero",
-              "credits": 2
-            },
-            {
-              "name": "GeDi + Innovación",
+              "name": "GeDi + Sostenible",
               "credits": 4
             },
             {
-              "name": "Gestión de Mercados 1",
+              "name": "Análisis financiero",
+              "credits": 2
+            },
+            {
+              "name": "Gestión de mercados 1",
+              "credits": 2
+            },
+            {
+              "name": "Estrategias de liderazgo y comunicación",
               "credits": 3
             },
             {
-              "name": "Diseño de la Gestión 3",
+              "name": "Lógica y lenguaje de programación",
               "credits": 3
             },
             {
@@ -3689,21 +4004,26 @@
         },
         {
           "semester": 6,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Gestión de la Calidad",
-              "credits": 2
-            },
-            {
-              "name": "GeDi Conocimiento",
+              "name": "GeDi + Innovación",
               "credits": 4
             },
             {
-              "name": "Gestión de Mercados 2",
+              "name": "Gestión de la calidad",
+              "credits": 2
+            },
+            {
+              "name": "Gestión de mercados 2",
               "credits": 3
             },
             {
-              "name": "Toma de Decisiones",
+              "name": "Ciencia de datos",
+              "credits": 3
+            },
+            {
+              "name": "Diseño de la gestión 2",
               "credits": 2
             },
             {
@@ -3714,22 +4034,27 @@
         },
         {
           "semester": 7,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Gestión de Riesgos",
-              "credits": 2
+              "name": "GeDi + Conocimiento",
+              "credits": 4
             },
             {
-              "name": "GeDi Administración",
-              "credits": 8
+              "name": "Gestión de riesgos",
+              "credits": 2
             },
             {
               "name": "Profundización 1",
               "credits": 3
             },
             {
-              "name": "Innovación y Transformación Digital",
-              "credits": 3
+              "name": "Formulación de proyectos",
+              "credits": 4
+            },
+            {
+              "name": "Diseño de la gestión 3",
+              "credits": 2
             },
             {
               "name": "Inglés 7",
@@ -3739,26 +4064,83 @@
         },
         {
           "semester": 8,
+          "semester_credits": 13,
           "courses": [
             {
-              "name": "Trabajo de Grado",
-              "credits": 10
-            },
-            {
-              "name": "GeDi + Tecnológica",
+              "name": "GeDi + Administración",
               "credits": 4
             },
             {
-              "name": "Gestión Gerencial",
-              "credits": 3
+              "name": "Gestión de medios 1",
+              "credits": 2
             },
             {
               "name": "Profundización 2",
               "credits": 3
             },
             {
+              "name": "Estructuración de pro-yectos sostenibles",
+              "credits": 2
+            },
+            {
               "name": "Inglés 8",
               "credits": 2
+            }
+          ]
+        },
+        {
+          "semester": 9,
+          "semester_credits": 13,
+          "courses": [
+            {
+              "name": "GeDi + Tecnológica",
+              "credits": 4
+            },
+            {
+              "name": "Gestión de medios 2",
+              "credits": 2
+            },
+            {
+              "name": "Profundización 3",
+              "credits": 3
+            },
+            {
+              "name": "Metodologías ágiles",
+              "credits": 2
+            },
+            {
+              "name": "Electivo 1",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "semester": 10,
+          "semester_credits": 16,
+          "courses": [
+            {
+              "name": "Trabajo de grado",
+              "credits": 4
+            },
+            {
+              "name": "Gestión de proyectos públicos",
+              "credits": 2
+            },
+            {
+              "name": "Gestión gerencial",
+              "credits": 3
+            },
+            {
+              "name": "Gestión de proyectos sostenibles",
+              "credits": 3
+            },
+            {
+              "name": "Electivo 2",
+              "credits": 3
+            },
+            {
+              "name": "Innovación y transformación digital",
+              "credits": 3
             }
           ]
         }
@@ -3772,29 +4154,26 @@
       "semesters": [
         {
           "semester": 1,
+          "semester_credits": 14,
           "courses": [
             {
-              "name": "Ciencia, Tecnología y Desarrollo",
+              "name": "Ciencia, tecnología y desarrollo",
               "credits": 2
             },
             {
-              "name": "Lenguaje y Cultura",
+              "name": "Lenguaje y cultura",
+              "credits": 2
+            },
+            {
+              "name": "Pensamiento creativo",
+              "credits": 2
+            },
+            {
+              "name": "Razonamiento matemático y analítico",
               "credits": 3
             },
             {
-              "name": "Ecologías del Diseño",
-              "credits": 2
-            },
-            {
-              "name": "Pensamiento Creativo",
-              "credits": 2
-            },
-            {
-              "name": "Razonamiento Matemático y Analítico",
-              "credits": 2
-            },
-            {
-              "name": "Fundamentos de Diseño",
+              "name": "Fundamentos de diseño",
               "credits": 3
             },
             {
@@ -3805,30 +4184,27 @@
         },
         {
           "semester": 2,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Herramientas Digitales 1",
-              "credits": 2
-            },
-            {
-              "name": "Epistemologías del Diseño",
+              "name": "Herramientas digitales 1",
               "credits": 3
             },
             {
-              "name": "Metodologías del Diseño",
+              "name": "Epistemologías del diseño",
               "credits": 2
             },
             {
-              "name": "Teoría de la Agencia",
+              "name": "Teoría de la agencia",
               "credits": 2
             },
             {
-              "name": "TIC/Competencias Digitales",
+              "name": "TIC / Competencias digitales",
               "credits": 2
             },
             {
               "name": "Dibujo",
-              "credits": 2
+              "credits": 4
             },
             {
               "name": "Inglés 2",
@@ -3838,17 +4214,14 @@
         },
         {
           "semester": 3,
+          "semester_credits": 18,
           "courses": [
             {
-              "name": "Herramientas Digitales 2",
-              "credits": 2
+              "name": "Herramientas digitales 2",
+              "credits": 3
             },
             {
-              "name": "Principios de Investigación en Diseño",
-              "credits": 4
-            },
-            {
-              "name": "Optativa 1",
+              "name": "Principios de investigación en diseño",
               "credits": 2
             },
             {
@@ -3856,12 +4229,12 @@
               "credits": 2
             },
             {
-              "name": "Modulaciones Bi y Tridimensionales",
+              "name": "Modulaciones bi y tridimensionales",
               "credits": 4
             },
             {
-              "name": "Laboratorio Tipográfico",
-              "credits": 2
+              "name": "Laboratorio tipográfico",
+              "credits": 4
             },
             {
               "name": "Inglés 3",
@@ -3871,29 +4244,26 @@
         },
         {
           "semester": 4,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Diseño Editorial",
-              "credits": 2
-            },
-            {
-              "name": "Contabilidad, Costos y Presupuestos",
-              "credits": 2
-            },
-            {
-              "name": "Comunicación Estratégica",
-              "credits": 2
-            },
-            {
-              "name": "Codificación y Narrativas de la Imagen",
+              "name": "Diseño editorial",
               "credits": 4
             },
             {
-              "name": "Producción Gráfica",
-              "credits": 2
+              "name": "Ecologías del diseño",
+              "credits": 4
             },
             {
-              "name": "Pintura Digital",
+              "name": "Codificación y narrativas de la imagen",
+              "credits": 4
+            },
+            {
+              "name": "Producción gráfica",
+              "credits": 3
+            },
+            {
+              "name": "Pintura digital",
               "credits": 2
             },
             {
@@ -3904,29 +4274,26 @@
         },
         {
           "semester": 5,
+          "semester_credits": 14,
           "courses": [
             {
-              "name": "Constitución, Ciudadanía y Paz",
+              "name": "Constitución, ciudadanía y paz",
               "credits": 2
             },
             {
-              "name": "Formulación, Diseño y Evaluación de Proyectos",
-              "credits": 5
-            },
-            {
-              "name": "Optativa 2",
+              "name": "Metodologías del diseño",
               "credits": 2
             },
             {
-              "name": "Diseño de Visualización de Datos",
+              "name": "Diseño de visualización de datos",
               "credits": 4
             },
             {
-              "name": "Diseño y Cultura Material",
-              "credits": 3
+              "name": "Diseño y cultura material",
+              "credits": 2
             },
             {
-              "name": "Laboratorio de Ilustración",
+              "name": "Laboratorio de ilustración",
               "credits": 2
             },
             {
@@ -3937,21 +4304,26 @@
         },
         {
           "semester": 6,
+          "semester_credits": 14,
           "courses": [
             {
-              "name": "Laboratorio de Marca",
+              "name": "Laboratorio de marca",
               "credits": 4
+            },
+            {
+              "name": "Optativo 1",
+              "credits": 3
             },
             {
               "name": "Mercadeo",
+              "credits": 2
+            },
+            {
+              "name": "Taller de fotografía",
               "credits": 4
             },
             {
-              "name": "Taller de Fotografía",
-              "credits": 4
-            },
-            {
-              "name": "Programación Aplicada al Diseño",
+              "name": "Programación aplicada al diseño",
               "credits": 2
             },
             {
@@ -3962,17 +4334,22 @@
         },
         {
           "semester": 7,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Desarrollo de Empaques",
+              "name": "Desarrollo de empaques",
               "credits": 4
             },
             {
-              "name": "Diseño de Identidad Latinoamericano",
-              "credits": 4
+              "name": "Comunicación estratégica",
+              "credits": 2
             },
             {
-              "name": "Taller de Imagen Audiovisual",
+              "name": "Diseño e identidad latinoamericanos",
+              "credits": 3
+            },
+            {
+              "name": "Taller de imagen audiovisual",
               "credits": 4
             },
             {
@@ -3981,24 +4358,29 @@
             },
             {
               "name": "Inglés 7",
-              "credits": 3
+              "credits": 2
             }
           ]
         },
         {
           "semester": 8,
+          "semester_credits": 15,
           "courses": [
             {
-              "name": "Diseño de Experiencias",
+              "name": "Diseño de experiencias",
+              "credits": 3
+            },
+            {
+              "name": "Contabilidad, costos y presupuestos",
               "credits": 4
             },
             {
-              "name": "+D+ Diseño Multiplataforma",
-              "credits": 4
+              "name": "+D+ Diseño multiplataforma",
+              "credits": 2
             },
             {
-              "name": "Diseño de Servicios Digitales",
-              "credits": 4
+              "name": "Diseño de servicios digitales",
+              "credits": 2
             },
             {
               "name": "Electiva 2",
@@ -4012,38 +4394,48 @@
         },
         {
           "semester": 9,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Laboratorio de Interacción",
-              "credits": 4
-            },
-            {
-              "name": "Laboratorio de Creatividad",
+              "name": "Laboratorio de interacción",
               "credits": 2
             },
             {
-              "name": "Diseño de Autor",
-              "credits": 3
+              "name": "Optativa 2",
+              "credits": 4
+            },
+            {
+              "name": "Laboratorio de creatividad",
+              "credits": 4
+            },
+            {
+              "name": "Diseño de autor",
+              "credits": 4
             },
             {
               "name": "Electiva 3",
               "credits": 2
             },
             {
-              "name": "Diseño de Interfaces",
-              "credits": 2
+              "name": "Diseño de interfaces",
+              "credits": 3
             }
           ]
         },
         {
           "semester": 10,
+          "semester_credits": 14,
           "courses": [
             {
-              "name": "Trabajo de Grado",
-              "credits": 10
+              "name": "Trabajo de grado",
+              "credits": 4
             },
             {
-              "name": "Ecosistemas Creativos",
+              "name": "Formulación, diseño y evaluación de proyectos",
+              "credits": 2
+            },
+            {
+              "name": "Ecosistemas creativos",
               "credits": 4
             },
             {
@@ -4062,17 +4454,26 @@
       "semesters": [
         {
           "semester": 1,
+          "semester_credits": 14,
           "courses": [
             {
-              "name": "Ciencia, Tecnología y Desarrollo",
+              "name": "Ciencia, tecnología y desarrollo",
               "credits": 2
             },
             {
-              "name": "Lenguaje y Cultura",
+              "name": "Lenguaje y cultura",
               "credits": 2
             },
             {
-              "name": "Pensamiento Creativo",
+              "name": "Pensamiento creativo",
+              "credits": 2
+            },
+            {
+              "name": "Razonamiento matemático y analítico",
+              "credits": 3
+            },
+            {
+              "name": "Introducción a los sistemas organizacionales",
               "credits": 2
             },
             {
@@ -4083,59 +4484,86 @@
         },
         {
           "semester": 2,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Cálculo Diferencial",
+              "name": "Cálculo diferencial",
               "credits": 3
             },
             {
-              "name": "Álgebra Lineal",
+              "name": "Álgebra lineal",
               "credits": 3
             },
             {
-              "name": "Razonamiento Matemático y Analítico",
+              "name": "Teoría de la agencia",
+              "credits": 2
+            },
+            {
+              "name": "TIC / Competencias digitales",
+              "credits": 2
+            },
+            {
+              "name": "Teoría y procesos administrativos",
               "credits": 3
             },
             {
-              "name": "Inglés 2",
+              "name": "Inglés II",
               "credits": 2
             }
           ]
         },
         {
           "semester": 3,
+          "semester_credits": 18,
           "courses": [
             {
-              "name": "Cálculo Integral",
+              "name": "Cálculo integral",
               "credits": 3
             },
             {
-              "name": "Física Mecánica",
+              "name": "Física mecánica",
               "credits": 4
             },
             {
-              "name": "Teoría de la Agencia",
+              "name": "Química general",
+              "credits": 3
+            },
+            {
+              "name": "Contabilidad, costos y presupuestos",
+              "credits": 4
+            },
+            {
+              "name": "Microeconomía",
               "credits": 2
             },
             {
-              "name": "Inglés 3",
+              "name": "Inglés III",
               "credits": 2
             }
           ]
         },
         {
           "semester": 4,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Estadística Descriptiva",
+              "name": "Estadística descriptiva",
               "credits": 3
             },
             {
-              "name": "Ecuaciones Diferenciales",
+              "name": "Ecuaciones diferenciales",
               "credits": 3
             },
             {
-              "name": "TIC/Competencias Digitales",
+              "name": "Ingeniería económica",
+              "credits": 3
+            },
+            {
+              "name": "Macroeconomía",
+              "credits": 4
+            },
+            {
+              "name": "Gerencia estratégica",
               "credits": 2
             },
             {
@@ -4146,18 +4574,27 @@
         },
         {
           "semester": 5,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Constitución, Ciudadanía y Paz",
+              "name": "Constitución, ciudadanía y paz",
               "credits": 2
             },
             {
-              "name": "Física de Ondas",
-              "credits": 4
+              "name": "Ecuaciones diferenciales",
+              "credits": 3
             },
             {
-              "name": "Quimica General",
+              "name": "Estadística inferencial",
               "credits": 3
+            },
+            {
+              "name": "Legislación organizacional",
+              "credits": 3
+            },
+            {
+              "name": "Formulación y evaluación de proyectos",
+              "credits": 4
             },
             {
               "name": "Inglés V",
@@ -4167,17 +4604,26 @@
         },
         {
           "semester": 6,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Gestión de Calidad",
+              "name": "Gestión de calidad",
               "credits": 2
             },
             {
-              "name": "Gestión Tecnológica",
+              "name": "Gestión tecnológica",
               "credits": 3
             },
             {
-              "name": "Contabilidad, Costos y Presupuestos",
+              "name": "Diseño de procesos productivos",
+              "credits": 3
+            },
+            {
+              "name": "Gestión del talento humano",
+              "credits": 3
+            },
+            {
+              "name": "Metodologías ágiles para gestión de proyectos",
               "credits": 3
             },
             {
@@ -4188,51 +4634,70 @@
         },
         {
           "semester": 7,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Gestión de Mercadeo",
+              "name": "Gestión de mercadeo",
               "credits": 3
             },
             {
-              "name": "Innovación y Transformación Digital",
+              "name": "Innovación y transformación digital",
               "credits": 4
             },
             {
-              "name": "Ingeniería Económica",
+              "name": "Investigación de operaciones",
               "credits": 3
             },
             {
-              "name": "Inglés V2",
+              "name": "Profundización I",
+              "credits": 3
+            },
+            {
+              "name": "Lógica de programación",
+              "credits": 2
+            },
+            {
+              "name": "Inglés VII",
               "credits": 2
             }
           ]
         },
         {
           "semester": 8,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Responsabilidad Social Empresarial",
+              "name": "Responsabilidad social empresarial",
               "credits": 2
             },
             {
-              "name": "Simulación en Sistemas Organizacionales",
+              "name": "Simulación en sistemas organizacionales",
               "credits": 3
             },
             {
-              "name": "Macroeconomía",
+              "name": "Electiva I",
+              "credits": 2
+            },
+            {
+              "name": "Profundización II",
+              "credits": 4
+            },
+            {
+              "name": "Investigación de mercadeos",
               "credits": 3
             },
             {
-              "name": "Inglés V3",
+              "name": "Inglés VIII",
               "credits": 2
             }
           ]
         },
         {
           "semester": 9,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Metodología de la Investigación",
+              "name": "Metodología de la investigación",
               "credits": 2
             },
             {
@@ -4240,32 +4705,49 @@
               "credits": 2
             },
             {
-              "name": "Estadística Inferencial",
+              "name": "Electiva II",
+              "credits": 2
+            },
+            {
+              "name": "Profundización III",
               "credits": 3
             },
             {
-              "name": "Gestión de Riesgos",
+              "name": "Análisis financiero",
+              "credits": 4
+            },
+            {
+              "name": "Gestión de riesgos",
               "credits": 3
             }
           ]
         },
         {
           "semester": 10,
+          "semester_credits": 18,
           "courses": [
             {
-              "name": "Trabajo de Grado",
+              "name": "Trabajo de grado",
               "credits": 4
             },
             {
-              "name": "Administración Pública",
+              "name": "Administración pública",
               "credits": 2
             },
             {
-              "name": "Legislación Organizacional",
-              "credits": 3
+              "name": "Electiva III",
+              "credits": 2
             },
             {
-              "name": "Resolución de Conflictos",
+              "name": "Relaciones laborales",
+              "credits": 2
+            },
+            {
+              "name": "Toma de decisiones",
+              "credits": 4
+            },
+            {
+              "name": "Resolución de conflictos",
               "credits": 2
             }
           ]
@@ -5193,21 +5675,26 @@
       "semesters": [
         {
           "semester": 1,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Ciencia, Tecnología y Desarrollo",
+              "name": "Ciencia, tecnología y desarrollo",
               "credits": 2
             },
             {
-              "name": "Lenguaje y Cultura",
+              "name": "Lenguaje y cultura",
               "credits": 2
             },
             {
-              "name": "Matemáticas Discretas",
-              "credits": 4
+              "name": "Pensamiento creativo",
+              "credits": 2
             },
             {
-              "name": "Lógica de Programación",
+              "name": "Razonamiento matemático y analítico",
+              "credits": 3
+            },
+            {
+              "name": "Desarrollo del pensamiento computacional",
               "credits": 4
             },
             {
@@ -5218,72 +5705,87 @@
         },
         {
           "semester": 2,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Cálculo Diferencial",
+              "name": "Matemáticas discretas",
+              "credits": 3
+            },
+            {
+              "name": "Lógica de programación",
               "credits": 4
             },
             {
-              "name": "Estructura de Datos",
-              "credits": 4
+              "name": "Teoría de la agencia",
+              "credits": 2
             },
             {
-              "name": "Desarrollo del Pensamiento Computacional",
-              "credits": 4
+              "name": "TIC / Competencias digitales",
+              "credits": 2
             },
             {
-              "name": "Álgebra Lineal",
-              "credits": 4
+              "name": "Álgebra lineal",
+              "credits": 3
             },
             {
-              "name": "Inglés 2",
+              "name": "Inglés II",
               "credits": 2
             }
           ]
         },
         {
           "semester": 3,
+          "semester_credits": 18,
           "courses": [
             {
-              "name": "Cálculo Integral",
+              "name": "Cálculo diferencial",
+              "credits": 3
+            },
+            {
+              "name": "Estructura de datos",
               "credits": 4
             },
             {
-              "name": "Programación Orientada a Objetos",
+              "name": "Bases de datos I",
               "credits": 4
             },
             {
-              "name": "Programación Funcional y Concurrente",
+              "name": "Sistemas operativos",
               "credits": 4
             },
             {
-              "name": "Física Mecánica",
+              "name": "Física mecánica",
               "credits": 4
             },
             {
-              "name": "Inglés 3",
+              "name": "Inglés III",
               "credits": 2
             }
           ]
         },
         {
           "semester": 4,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Estadística y Probabilidad",
+              "name": "Cálculo integral",
+              "credits": 3
+            },
+            {
+              "name": "Programación orientada a objetos",
               "credits": 4
             },
             {
-              "name": "Arquitectura de Software",
+              "name": "Bases de datos II",
               "credits": 4
             },
             {
-              "name": "Bases de Datos",
-              "credits": 4
+              "name": "Ingeniería de software",
+              "credits": 3
             },
             {
-              "name": "Física de Ondas",
-              "credits": 4
+              "name": "Estadística descriptiva",
+              "credits": 3
             },
             {
               "name": "Inglés IV",
@@ -5293,22 +5795,27 @@
         },
         {
           "semester": 5,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Constitución, Ciudadanía y Paz",
+              "name": "Constitución, ciudadanía y paz",
               "credits": 2
             },
             {
-              "name": "Ingeniería de Requisitos",
+              "name": "Ecuaciones diferenciales",
+              "credits": 3
+            },
+            {
+              "name": "Introducción a la analítica de datos",
               "credits": 4
             },
             {
-              "name": "Análisis y Diseño de Algoritmos",
-              "credits": 4
+              "name": "Programación web",
+              "credits": 3
             },
             {
-              "name": "Redes de Datos",
-              "credits": 4
+              "name": "Estadística inferencial",
+              "credits": 3
             },
             {
               "name": "Inglés V",
@@ -5318,21 +5825,26 @@
         },
         {
           "semester": 6,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Métodos Numéricos",
-              "credits": 5
+              "name": "Métodos numéricos",
+              "credits": 3
             },
             {
-              "name": "Verificación y Validación de Software",
+              "name": "Electiva I",
+              "credits": 2
+            },
+            {
+              "name": "Física mecánica",
               "credits": 4
             },
             {
-              "name": "Sistemas Operativos",
-              "credits": 4
+              "name": "Testing",
+              "credits": 2
             },
             {
-              "name": "Seguridad Informática",
+              "name": "Aprendizaje automático",
               "credits": 4
             },
             {
@@ -5343,77 +5855,113 @@
         },
         {
           "semester": 7,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Empresa y Sociedad",
+              "name": "Empresa y sociedad",
               "credits": 2
             },
             {
-              "name": "Gestión de Proyectos de Software",
-              "credits": 4
-            },
-            {
-              "name": "Computación en la Nube",
-              "credits": 4
-            },
-            {
-              "name": "Electiva I",
+              "name": "Gobernanza de datos",
               "credits": 2
             },
             {
-              "name": "Inglés V2",
+              "name": "Optativa I",
+              "credits": 3
+            },
+            {
+              "name": "Seguridad informática",
+              "credits": 4
+            },
+            {
+              "name": "Aprendizaje automático",
+              "credits": 4
+            },
+            {
+              "name": "Inglés VII",
               "credits": 2
             }
           ]
         },
         {
           "semester": 8,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Sostenibilidad Ambiental",
+              "name": "Sostenibilidad ambiental",
               "credits": 2
             },
             {
-              "name": "Inteligencia Artificial",
+              "name": "Arquitectura de software",
               "credits": 4
             },
             {
-              "name": "Aprendizaje Automático",
+              "name": "Optativa II",
+              "credits": 3
+            },
+            {
+              "name": "Gestión de proyectos informáticos",
               "credits": 4
             },
             {
-              "name": "Electiva 2",
+              "name": "Electiva II",
               "credits": 2
             },
             {
-              "name": "Inglés V3",
+              "name": "Inglés VIII",
               "credits": 2
             }
           ]
         },
         {
           "semester": 9,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Metodología de la Investigación",
+              "name": "Metodología de la investigación",
               "credits": 2
             },
             {
-              "name": "Calidad de Software",
+              "name": "Computación en la nube",
               "credits": 4
             },
             {
-              "name": "Electiva 3",
-              "credits": 4
+              "name": "Optativa III",
+              "credits": 3
+            },
+            {
+              "name": "Gestión y gobierno de TI",
+              "credits": 2
+            },
+            {
+              "name": "Calidad de software",
+              "credits": 2
+            },
+            {
+              "name": "Electiva III",
+              "credits": 2
             }
           ]
         },
         {
           "semester": 10,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Trabajo de Grado",
-              "credits": 10
+              "name": "Trabajo de grado",
+              "credits": 4
+            },
+            {
+              "name": "Seminario de emprendimiento e innovación",
+              "credits": 4
+            },
+            {
+              "name": "Modelos y simulación",
+              "credits": 2
+            },
+            {
+              "name": "Seminario de la ciencia de los datos",
+              "credits": 4
             }
           ]
         }
@@ -5427,67 +5975,82 @@
       "semesters": [
         {
           "semester": 1,
+          "semester_credits": 14,
           "courses": [
             {
-              "name": "Ciencia, Tecnología y Desarrollo",
+              "name": "Ciencia, tecnología y desarrollo",
               "credits": 2
             },
             {
-              "name": "Matemáticas Operativas",
-              "credits": 4
-            },
-            {
-              "name": "Introducción a la Ingeniería Mecánica",
+              "name": "Lenguaje y cultura",
               "credits": 2
             },
             {
-              "name": "Dibujo Técnico",
-              "credits": 4
+              "name": "Pensamiento creativo",
+              "credits": 2
             },
             {
-              "name": "Inglés 1",
+              "name": "Razonamiento matemático y analítico",
+              "credits": 3
+            },
+            {
+              "name": "Dibujo técnico",
+              "credits": 3
+            },
+            {
+              "name": "Inglés I",
               "credits": 2
             }
           ]
         },
         {
           "semester": 2,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Cálculo Diferencial",
+              "name": "Cálculo diferencial",
+              "credits": 3
+            },
+            {
+              "name": "Geometría vectorial y analítica",
+              "credits": 3
+            },
+            {
+              "name": "Teoría de la agencia",
+              "credits": 2
+            },
+            {
+              "name": "TIC / Competencias digitales",
+              "credits": 2
+            },
+            {
+              "name": "Dibujo mecánico",
               "credits": 4
             },
             {
-              "name": "Álgebra Lineal",
-              "credits": 4
-            },
-            {
-              "name": "Geometría Vectorial y Analítica",
-              "credits": 4
-            },
-            {
-              "name": "Dibujo Mecánico",
-              "credits": 4
-            },
-            {
-              "name": "Inglés 2",
+              "name": "Inglés II",
               "credits": 2
             }
           ]
         },
         {
           "semester": 3,
+          "semester_credits": 18,
           "courses": [
             {
-              "name": "Cálculo Integral",
+              "name": "Cálculo integral",
+              "credits": 3
+            },
+            {
+              "name": "Física mecánica",
               "credits": 4
             },
             {
-              "name": "Física Mecánica",
-              "credits": 4
+              "name": "Álgebra lineal",
+              "credits": 3
             },
             {
-              "name": "Química General",
+              "name": "Ciencia de los materiales",
               "credits": 4
             },
             {
@@ -5495,171 +6058,210 @@
               "credits": 4
             },
             {
-              "name": "Inglés 3",
+              "name": "Inglés III",
               "credits": 2
             }
           ]
         },
         {
           "semester": 4,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Ecuaciones Diferenciales",
+              "name": "Ecuaciones diferenciales",
+              "credits": 3
+            },
+            {
+              "name": "Física de ondas",
               "credits": 4
             },
             {
-              "name": "Física de Ondas",
+              "name": "Estadística descriptiva",
+              "credits": 3
+            },
+            {
+              "name": "Estática",
+              "credits": 3
+            },
+            {
+              "name": "Resistencia de materiales",
               "credits": 4
             },
             {
-              "name": "Ciencia de los Materiales",
-              "credits": 4
-            },
-            {
-              "name": "Dinámica",
-              "credits": 4
-            },
-            {
-              "name": "Inglés 4",
+              "name": "Inglés IV",
               "credits": 2
             }
           ]
         },
         {
           "semester": 5,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Constitución, Ciudadanía y Paz",
+              "name": "Constitución, ciudadanía y paz",
               "credits": 2
+            },
+            {
+              "name": "Mecánica de fluidos",
+              "credits": 4
             },
             {
               "name": "Termodinámica",
               "credits": 4
             },
             {
-              "name": "Mecánica de Sólidos I",
-              "credits": 4
+              "name": "Electiva I",
+              "credits": 2
             },
             {
-              "name": "Procesos de Unión",
-              "credits": 4
+              "name": "Dinámica",
+              "credits": 3
             },
             {
-              "name": "Inglés 5",
+              "name": "Inglés V",
               "credits": 2
             }
           ]
         },
         {
           "semester": 6,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Lógica de Programación",
+              "name": "Lógica de programación",
+              "credits": 4
+            },
+            {
+              "name": "Mecánica de fluidos",
+              "credits": 4
+            },
+            {
+              "name": "Termodinámica",
+              "credits": 4
+            },
+            {
+              "name": "Electiva II",
               "credits": 2
             },
             {
-              "name": "Mecánica de Fluidos",
-              "credits": 4
+              "name": "Elementos de máquinas",
+              "credits": 3
             },
             {
-              "name": "Mecánica de Sólidos 2",
-              "credits": 4
-            },
-            {
-              "name": "Procesos de Remoción de Materiales",
-              "credits": 4
-            },
-            {
-              "name": "Inglés 6",
+              "name": "Inglés VI",
               "credits": 2
             }
           ]
         },
         {
           "semester": 7,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Sistemas de Automatización y Control",
+              "name": "Circuitos eléctricos",
               "credits": 4
             },
             {
-              "name": "Transferencia de Calor",
+              "name": "Transferencia de calor",
               "credits": 4
             },
             {
-              "name": "Mecanismos",
+              "name": "Elementos de máquinas",
+              "credits": 3
+            },
+            {
+              "name": "Procesos de moldeo y conformado volumétrico",
               "credits": 4
             },
             {
-              "name": "Procesos de Moldeo y Conformado Volumétrico",
-              "credits": 4
-            },
-            {
-              "name": "Inglés 7",
+              "name": "Inglés VII",
               "credits": 2
             }
           ]
         },
         {
           "semester": 8,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Circuitos Eléctricos",
+              "name": "Sistemas de automatización y control",
               "credits": 4
             },
             {
-              "name": "Diseño de Elementos de Máquinas",
+              "name": "Análisis de sistemas térmicos",
               "credits": 4
             },
             {
-              "name": "Resistencia de Materiales y Manufactura Aditiva",
+              "name": "Profundización I",
+              "credits": 3
+            },
+            {
+              "name": "Diseño mecánico I",
+              "credits": 3
+            },
+            {
+              "name": "Procesos de remoción de materiales",
               "credits": 4
             },
             {
-              "name": "Electiva 1",
-              "credits": 2
-            },
-            {
-              "name": "Inglés 8",
+              "name": "Inglés VIII",
               "credits": 2
             }
           ]
         },
         {
           "semester": 9,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Metodología de la Investigación",
+              "name": "Metodología de la investigación",
               "credits": 2
             },
             {
-              "name": "Mantenimiento Industrial",
+              "name": "Gestión del mantenimiento",
+              "credits": 3
+            },
+            {
+              "name": "Profundización II",
+              "credits": 3
+            },
+            {
+              "name": "Diseño mecánico II",
+              "credits": 3
+            },
+            {
+              "name": "Mecánica computacional",
               "credits": 4
             },
             {
-              "name": "Optativa 1",
+              "name": "Procesos de remoción de materiales",
               "credits": 4
-            },
-            {
-              "name": "Electiva 2",
-              "credits": 2
             }
           ]
         },
         {
           "semester": 10,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Trabajo de Grado",
-              "credits": 10
-            },
-            {
-              "name": "Optativa 2",
+              "name": "Trabajo de grado",
               "credits": 4
             },
             {
-              "name": "Electiva 3",
+              "name": "Gestión de activos",
+              "credits": 3
+            },
+            {
+              "name": "Profundización III",
+              "credits": 3
+            },
+            {
+              "name": "Transición energética",
               "credits": 2
+            },
+            {
+              "name": "Procesos de unión y manufactura aditiva",
+              "credits": 4
             }
           ]
         }
@@ -5673,22 +6275,27 @@
       "semesters": [
         {
           "semester": 1,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Ciencia, Tecnología y Desarrollo",
+              "name": "Ciencia, tecnología y desarrollo",
               "credits": 2
             },
             {
-              "name": "Lenguaje y Cultura",
+              "name": "Lenguaje y cultura",
               "credits": 2
             },
             {
-              "name": "Fundamentos de Diseño",
-              "credits": 6
+              "name": "Pensamiento creativo",
+              "credits": 2
             },
             {
-              "name": "Ilustración para la Moda y el Vestuario",
-              "credits": 4
+              "name": "Razonamiento matemático y analítico",
+              "credits": 3
+            },
+            {
+              "name": "Fundamentos de diseño",
+              "credits": 3
             },
             {
               "name": "Inglés 1",
@@ -5698,18 +6305,27 @@
         },
         {
           "semester": 2,
+          "semester_credits": 15,
           "courses": [
             {
-              "name": "Taller de Diseño 1",
-              "credits": 6
-            },
-            {
-              "name": "Patronaje y Confección 1",
-              "credits": 6
-            },
-            {
-              "name": "Herramientas Digitales 1",
+              "name": "Taller de diseño 1",
               "credits": 4
+            },
+            {
+              "name": "Herramientas digitales 1",
+              "credits": 3
+            },
+            {
+              "name": "Teoría de la agencia",
+              "credits": 2
+            },
+            {
+              "name": "TIC / Competencias digitales",
+              "credits": 2
+            },
+            {
+              "name": "Patronaje y confección 1",
+              "credits": 3
             },
             {
               "name": "Inglés 2",
@@ -5719,22 +6335,23 @@
         },
         {
           "semester": 3,
+          "semester_credits": 15,
           "courses": [
             {
-              "name": "Taller de Diseño 2",
-              "credits": 6
-            },
-            {
-              "name": "Patronaje y Confección 2",
+              "name": "Taller de diseño 2",
               "credits": 4
             },
             {
-              "name": "Epistemologías del Diseño",
+              "name": "Ilustración para la moda y el vestuario",
               "credits": 3
             },
             {
-              "name": "Historia de la Moda y el Diseño",
-              "credits": 2
+              "name": "Laboratorio de fibras y bases textiles",
+              "credits": 3
+            },
+            {
+              "name": "Patronaje y confección 2",
+              "credits": 3
             },
             {
               "name": "Inglés 3",
@@ -5744,18 +6361,23 @@
         },
         {
           "semester": 4,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Taller de Diseño 3",
+              "name": "Taller de diseño 3",
               "credits": 6
             },
             {
-              "name": "Patronaje y Confección 3",
+              "name": "Epistemologías del diseño",
+              "credits": 2
+            },
+            {
+              "name": "Ergonomía para el cuerpo - vestido",
               "credits": 4
             },
             {
-              "name": "Textiles y Fibras",
-              "credits": 4
+              "name": "Laboratorio de intervención textil3",
+              "credits": 2
             },
             {
               "name": "Inglés 4",
@@ -5765,21 +6387,26 @@
         },
         {
           "semester": 5,
+          "semester_credits": 15,
           "courses": [
             {
-              "name": "Constitución, Ciudadanía y Paz",
+              "name": "Constitución, ciudadanía y paz",
               "credits": 2
             },
             {
-              "name": "Taller de Diseño 4",
+              "name": "Taller de diseño 4",
               "credits": 6
             },
             {
-              "name": "Producción Vestimentaria Digital 1",
-              "credits": 4
+              "name": "Confort",
+              "credits": 2
             },
             {
-              "name": "Observatorio de Prácticas Vestimentarias 1",
+              "name": "Ecologías del diseño",
+              "credits": 2
+            },
+            {
+              "name": "Patronaje y confección 3",
               "credits": 3
             },
             {
@@ -5790,18 +6417,23 @@
         },
         {
           "semester": 6,
+          "semester_credits": 18,
           "courses": [
             {
-              "name": "Taller de Diseño 5",
+              "name": "Taller de diseño 5",
               "credits": 6
             },
             {
-              "name": "Costos y Contabilidad para el Diseño",
+              "name": "Costos y contabilidad para el diseño",
+              "credits": 4
+            },
+            {
+              "name": "Historias de la indumentaria",
               "credits": 3
             },
             {
-              "name": "Sastrería",
-              "credits": 4
+              "name": "Producción vestimentaria digital 1",
+              "credits": 3
             },
             {
               "name": "Inglés 6",
@@ -5811,18 +6443,27 @@
         },
         {
           "semester": 7,
+          "semester_credits": 17,
           "courses": [
             {
-              "name": "Taller de Diseño 6",
+              "name": "Taller de diseño 6",
               "credits": 6
             },
             {
-              "name": "Producción y Calidad para el Diseño",
+              "name": "Producción y calidad para el vestuario",
               "credits": 3
             },
             {
-              "name": "Producción Vestimentaria Digital 2",
-              "credits": 4
+              "name": "Observatorio de prácticas vestimentarias 2",
+              "credits": 3
+            },
+            {
+              "name": "Estudios críticos de la moda y el diseño",
+              "credits": 1
+            },
+            {
+              "name": "Producción vestimentaria digital 2",
+              "credits": 3
             },
             {
               "name": "Inglés 7",
@@ -5832,22 +6473,27 @@
         },
         {
           "semester": 8,
+          "semester_credits": 15,
           "courses": [
             {
-              "name": "Taller de Diseño 7",
+              "name": "Taller de diseño 7",
               "credits": 6
             },
             {
-              "name": "Principios de Investigación",
+              "name": "Principios de investigación en diseño",
+              "credits": 2
+            },
+            {
+              "name": "Industria de la moda y el vestuario - cadena de valor",
               "credits": 3
             },
             {
-              "name": "Patronaje Tridimensional",
-              "credits": 3
+              "name": "Técnicas de comunicación para la moda e indumentaria",
+              "credits": 1
             },
             {
               "name": "Electiva 1",
-              "credits": 2
+              "credits": 1
             },
             {
               "name": "Inglés 8",
@@ -5857,18 +6503,23 @@
         },
         {
           "semester": 9,
+          "semester_credits": 15,
           "courses": [
             {
-              "name": "Gerencia y Administración para el Diseño",
+              "name": "Gerencia y administración para el diseño",
               "credits": 3
             },
             {
-              "name": "Optativa 1",
+              "name": "Optativa 1 - Ruta de profundización",
+              "credits": 5
+            },
+            {
+              "name": "Gestión de la innovación para el vestuario y la moda",
+              "credits": 3
+            },
+            {
+              "name": "Patronaje tridimensional",
               "credits": 2
-            },
-            {
-              "name": "Procesos Especializados de Fabricación",
-              "credits": 3
             },
             {
               "name": "Electiva 2",
@@ -5878,13 +6529,22 @@
         },
         {
           "semester": 10,
+          "semester_credits": 16,
           "courses": [
             {
-              "name": "Trabajo de Grado",
-              "credits": 10
+              "name": "Trabajo de grado",
+              "credits": 4
             },
             {
-              "name": "Optativa 2",
+              "name": "Optativa 2 - Ruta de profundización",
+              "credits": 5
+            },
+            {
+              "name": "Gestión de la propiedad intelectual del diseño",
+              "credits": 2
+            },
+            {
+              "name": "Procesos especializados en fabricación de indumentaria",
               "credits": 2
             },
             {
