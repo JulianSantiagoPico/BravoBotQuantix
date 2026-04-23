@@ -9,9 +9,11 @@ from pydantic import BaseModel, Field, field_validator
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from rag.pipeline import ask
-from rag.retriever import get_collection
+from rag.retriever import get_index
 from rag.router import VALID_CATEGORIES
 from rag.sanitizer import sanitize_query, sanitize_session_id
+import os
+import httpx
 
 logging.basicConfig(
     level=logging.INFO,
@@ -28,22 +30,25 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=[
+        "http://localhost:5173", 
+        "http://localhost:3000", 
+        "https://bravo-bot-quantix.vercel.app"
+    ],
     allow_credentials=True,
-    allow_methods=["GET", "POST"],
-    allow_headers=["Content-Type", "Accept", "Authorization"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
 @app.on_event("startup")
 async def startup_event():
     try:
-        get_collection()
-        logger.info("ChromaDB cargado correctamente al iniciar.")
+        get_index()
+        logger.info("Pinecone cargado correctamente al iniciar.")
     except Exception as exc:
         logger.warning(
-            f"No se pudo cargar ChromaDB al iniciar: {exc}. "
-            "Ejecuta run_ingestion.py primero."
+            f"No se pudo cargar Pinecone al iniciar: {exc}. "
         )
 
 
@@ -144,3 +149,94 @@ async def get_categorias():
 @app.get("/health")
 async def health():
     return {"status": "ok", "service": "BravoBot API"}
+
+
+# --- TELEGRAM WEBHOOK ---
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+
+if not TELEGRAM_BOT_TOKEN:
+    logger.error("CRÍTICO: TELEGRAM_BOT_TOKEN no encontrado en las variables de entorno.")
+else:
+    logger.info(f"TELEGRAM_BOT_TOKEN cargado (comienza por {TELEGRAM_BOT_TOKEN[:5]}...)")
+
+@app.post("/webhook/telegram")
+async def telegram_webhook(update: dict):
+    """
+    Recibe actualizaciones de Telegram vía Webhook.
+    """
+    if not TELEGRAM_BOT_TOKEN:
+        logger.error("TELEGRAM_BOT_TOKEN no está configurado.")
+        return {"status": "error", "message": "Token not configured"}
+
+    # Extraer el mensaje
+    message = update.get("message")
+    if not message:
+        return {"status": "ok"}
+    
+    text = message.get("text")
+    chat_id = message.get("chat", {}).get("id")
+    
+    if not text or not chat_id:
+        return {"status": "ok"}
+
+    chat_id_str = str(chat_id)
+
+    # Manejar el comando /start
+    if text.startswith("/start"):
+        respuesta = (
+            "¡Hola! 👋 Soy BravoBot, tu asistente inteligente para aspirantes de la "
+            "I.U. Pascual Bravo. 🎓\n\n"
+            "Puedes preguntarme sobre inscripciones, programas académicos, "
+            "costos, o cualquier otra duda que tengas."
+        )
+    else:
+        # Llamar a la API interna usando la misma lógica de chat
+        try:
+            # Reutilizamos el historial en memoria usando chat_id como session_id
+            if chat_id_str not in sessions and len(sessions) < MAX_SESSIONS:
+                sessions[chat_id_str] = []
+            
+            history = sessions.get(chat_id_str, [])
+            
+            # Sanitizar
+            clean_query = sanitize_query(text)
+            
+            # Notificar que está escribiendo (con timeout para evitar bloqueos)
+            try:
+                async with httpx.AsyncClient(timeout=5.0) as client:
+                    await client.post(
+                        f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendChatAction",
+                        json={"chat_id": chat_id, "action": "typing"}
+                    )
+            except Exception:
+                pass # Si falla el typing action no es crítico
+
+            result = ask(clean_query, history=history)
+            respuesta = result["respuesta"]
+            
+            # Actualizar historial
+            if chat_id_str in sessions:
+                sessions[chat_id_str].append({"role": "user", "text": clean_query})
+                sessions[chat_id_str].append({"role": "model", "text": respuesta})
+                if len(sessions[chat_id_str]) > MAX_HISTORY_LENGTH:
+                    sessions[chat_id_str] = sessions[chat_id_str][-MAX_HISTORY_LENGTH:]
+
+        except Exception:
+            logger.exception("Error procesando mensaje de Telegram")
+            respuesta = "Lo siento, estoy teniendo problemas técnicos temporales. 🛠️ Intenta de nuevo más tarde."
+
+    # Enviar la respuesta a Telegram
+    try:
+        async with httpx.AsyncClient(timeout=10.0) as client:
+            resp = await client.post(
+                f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+                json={
+                    "chat_id": chat_id,
+                    "text": respuesta
+                }
+            )
+            resp.raise_for_status()
+    except Exception:
+        logger.exception("Error enviando respuesta a Telegram")
+
+    return {"status": "ok"}

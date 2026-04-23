@@ -5,7 +5,7 @@ import uuid
 from pathlib import Path
 from urllib.parse import urlparse
 
-import chromadb
+from pinecone import Pinecone
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 
@@ -16,9 +16,8 @@ load_dotenv()
 
 logger = logging.getLogger(__name__)
 
-_DEFAULT_CHROMA = str(Path(__file__).resolve().parent.parent / "chroma_db")
-CHROMA_PERSIST_DIR = os.getenv("CHROMA_PERSIST_DIR", _DEFAULT_CHROMA)
-COLLECTION_NAME = os.getenv("COLLECTION_NAME", "bravobot")
+PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "bravobot")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "paraphrase-multilingual-MiniLM-L12-v2")
 
 _model: SentenceTransformer | None = None
@@ -37,19 +36,24 @@ def _get_model() -> SentenceTransformer:
     return _model
 
 
-def _get_collection(reset: bool = False) -> chromadb.Collection:
-    chroma_client = chromadb.PersistentClient(path=CHROMA_PERSIST_DIR)
+def _get_index(reset: bool = False):
+    if not PINECONE_API_KEY:
+        raise ValueError("PINECONE_API_KEY no encontrada en .env")
+    
+    pc = Pinecone(api_key=PINECONE_API_KEY)
+    
+    # Asumimos que el índice ya existe (o se crea manualmente desde la web de Pinecone)
+    # Dimension del modelo paraphrase-multilingual-MiniLM-L12-v2 = 384
+    index = pc.Index(PINECONE_INDEX_NAME)
+    
     if reset:
         try:
-            chroma_client.delete_collection(COLLECTION_NAME)
-            logger.info(f"Colección '{COLLECTION_NAME}' eliminada.")
-        except Exception:
-            pass
-    collection = chroma_client.get_or_create_collection(
-        name=COLLECTION_NAME,
-        metadata={"hnsw:space": "cosine"},
-    )
-    return collection
+            index.delete(delete_all=True)
+            logger.info(f"Índice '{PINECONE_INDEX_NAME}' vaciado.")
+        except Exception as e:
+            logger.error(f"Error vaciando índice: {e}")
+            
+    return index
 
 
 def _extract_titulo(texto_limpio: str) -> str:
@@ -99,7 +103,7 @@ def build_index(raw_pages: list[dict], reset: bool = False) -> None:
         return
 
     model = _get_model()
-    collection = _get_collection(reset=reset)
+    index = _get_index(reset=reset)
 
     total_chunks = 0
 
@@ -148,12 +152,23 @@ def build_index(raw_pages: list[dict], reset: bool = False) -> None:
             for i in range(len(chunks))
         ]
 
-        collection.add(
-            ids=ids,
-            embeddings=embeddings,
-            documents=chunks,
-            metadatas=metadatas,
-        )
+        # Pinecone espera diccionarios para el metadato, pero text no puede ser documento plano, hay que meterlo en metadata
+        vectors_to_upsert = []
+        for i, (chunk_id, emb, texto_chunk, meta) in enumerate(zip(ids, embeddings, chunks, metadatas)):
+            # Pinecone usa el campo 'text' dentro de metadata para guardar el contenido
+            meta["texto"] = texto_chunk
+            vectors_to_upsert.append({
+                "id": chunk_id,
+                "values": emb,
+                "metadata": meta
+            })
+
+        # Upsert en lotes (batching) es recomendable en Pinecone
+        batch_size = 100
+        for i in range(0, len(vectors_to_upsert), batch_size):
+            batch = vectors_to_upsert[i:i + batch_size]
+            index.upsert(vectors=batch)
+            
         total_chunks += len(chunks)
 
-    logger.info(f"\nIndexación completa. Total chunks en ChromaDB: {total_chunks}")
+    logger.info(f"\nIndexación completa. Total chunks en Pinecone: {total_chunks}")

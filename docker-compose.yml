@@ -5,8 +5,7 @@
 #   frontend  → nginx sirviendo el build de Vite (puerto 80)
 #   backend   → FastAPI + uvicorn (puerto interno 8000)
 #
-# Volúmenes:
-#   chroma_data → persiste la base de datos vectorial ChromaDB
+#   backend   → FastAPI + uvicorn (puerto interno 8000)
 # ═══════════════════════════════════════════════════════════════════
 
 services:
@@ -26,10 +25,6 @@ services:
       - CHUNK_OVERLAP
       - TOP_K
       - EMBEDDING_MODEL
-      # Sobreescribe la ruta de ChromaDB para que apunte al volumen Docker
-      - CHROMA_PERSIST_DIR=/app/chroma_db
-    volumes:
-      - chroma_data:/app/chroma_db
     networks:
       - bravobot-net
     # No expone puerto al host — solo accesible desde nginx en la red interna
@@ -57,30 +52,7 @@ services:
     networks:
       - bravobot-net
 
-  # ── Bot de Telegram ────────────────────────────────────────────────
-  telegram-bot:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    container_name: bravobot-telegram
-    restart: unless-stopped
-    env_file:
-      - ./backend/.env
-    environment:
-      - API_URL=http://backend:8000/chat
-    depends_on:
-      backend:
-        condition: service_healthy
-    command: ["python", "telegram_bot.py"]
-    networks:
-      - bravobot-net
-
 # ── Redes ────────────────────────────────────────────────────────────
 networks:
   bravobot-net:
     driver: bridge
-
-# ── Volúmenes ────────────────────────────────────────────────────────
-volumes:
-  chroma_data:
-    name: bravobot-chroma-data

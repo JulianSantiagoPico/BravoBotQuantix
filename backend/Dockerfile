@@ -10,6 +10,14 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
+# Hugging Face Spaces requiere un usuario no-root (uid 1000)
+RUN useradd -m -u 1000 user
+ENV HOME=/home/user \
+    PATH=/home/user/.local/bin:$PATH
+
+# Cambiar permisos del directorio de trabajo
+RUN chown -R user:user /app
+
 # Instalar dependencias del sistema necesarias para sentence-transformers
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
@@ -19,12 +27,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copiar código fuente del backend
-COPY . .
+# Copiar código fuente del backend (con permisos)
+COPY --chown=user:user . .
 
-# Puerto de la API
-EXPOSE 8000
+# Cambiar al usuario no-root
+USER user
+
+# Puerto de la API para Hugging Face Spaces
+EXPOSE 7860
 
 # Iniciar uvicorn apuntando al app FastAPI
-# --host 0.0.0.0 es necesario para que Docker exponga el puerto
-CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "7860"]

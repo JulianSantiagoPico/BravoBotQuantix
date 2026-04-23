@@ -2,7 +2,7 @@ import logging
 import os
 from pathlib import Path
 
-import chromadb
+from pinecone import Pinecone
 from dotenv import load_dotenv
 from google import genai
 from sentence_transformers import SentenceTransformer
@@ -13,9 +13,8 @@ load_dotenv()
 
 logger = logging.getLogger(__name__)
 
-_DEFAULT_CHROMA = str(Path(__file__).resolve().parent.parent / "chroma_db")
-CHROMA_PERSIST_DIR = os.getenv("CHROMA_PERSIST_DIR", _DEFAULT_CHROMA)
-COLLECTION_NAME = os.getenv("COLLECTION_NAME", "bravobot")
+PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "bravobot")
 TOP_K = int(os.getenv("TOP_K", "5"))
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "paraphrase-multilingual-MiniLM-L12-v2")
 MIN_SCORE = float(os.getenv("MIN_SCORE", "0.30"))
@@ -46,13 +45,17 @@ def _get_model() -> SentenceTransformer:
     return _model
 
 
-def get_collection() -> chromadb.Collection:
-    global _collection
-    if _collection is None:
-        chroma_client = chromadb.PersistentClient(path=CHROMA_PERSIST_DIR)
-        _collection = chroma_client.get_collection(COLLECTION_NAME)
-        logger.info(f"ChromaDB cargado: colección '{COLLECTION_NAME}'")
-    return _collection
+_index = None
+
+def get_index():
+    global _index
+    if _index is None:
+        if not PINECONE_API_KEY:
+            raise ValueError("PINECONE_API_KEY no encontrada en .env")
+        pc = Pinecone(api_key=PINECONE_API_KEY)
+        _index = pc.Index(PINECONE_INDEX_NAME)
+        logger.info(f"Pinecone cargado: índice '{PINECONE_INDEX_NAME}'")
+    return _index
 
 
 def expand_query(query: str) -> list[str]:
@@ -118,35 +121,36 @@ def _query_collection(
     where_filter: dict | None,
     n_results: int,
 ) -> list[tuple[str, dict]]:
-    """Ejecuta una query en ChromaDB y retorna lista de (doc_id, chunk_dict)."""
-    collection = get_collection()
+    """Ejecuta una query en Pinecone y retorna lista de (doc_id, chunk_dict)."""
+    index = get_index()
     try:
-        results = collection.query(
-            query_embeddings=[query_embedding],
-            n_results=n_results,
-            where=where_filter,
-            include=["documents", "metadatas", "distances"],
+        results = index.query(
+            vector=query_embedding,
+            top_k=n_results,
+            filter=where_filter,
+            include_metadata=True
         )
     except Exception as exc:
-        logger.error(f"Error en query ChromaDB: {exc}")
+        logger.error(f"Error en query Pinecone: {exc}")
         return []
 
     ranked = []
-    docs = results.get("documents", [[]])[0]
-    metas = results.get("metadatas", [[]])[0]
-    dists = results.get("distances", [[]])[0]
-    ids = results.get("ids", [[]])[0]
-
-    for doc_id, doc, meta, dist in zip(ids, docs, metas, dists):
+    
+    for match in results.get("matches", []):
+        meta = match.get("metadata", {})
+        doc_id = match.get("id", "")
+        # Pinecone devuelve el score (similitud del coseno), Chroma devolvía distancia.
+        score = match.get("score", 0.0)
+        
         ranked.append((
             doc_id,
             {
-                "texto": doc,
+                "texto": meta.get("texto", ""),
                 "url": meta.get("url", ""),
                 "categoria": meta.get("categoria", ""),
                 "source_type": meta.get("source_type", ""),
                 "program_slug": meta.get("program_slug", ""),
-                "score": round(1 - dist, 4),
+                "score": round(score, 4),
             },
         ))
     return ranked
@@ -197,7 +201,7 @@ def retrieve(query: str, categorias: list[str], top_k: int = TOP_K) -> list[dict
             all_ranked_lists.append(ranked)
 
     if not all_ranked_lists:
-        logger.warning("No se obtuvieron resultados de ChromaDB")
+        logger.warning("No se obtuvieron resultados de Pinecone")
         return []
 
     # 5. RRF fusion
